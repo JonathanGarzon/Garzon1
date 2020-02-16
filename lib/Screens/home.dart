@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:primera_app/Screens/Contact.dart';
 import 'package:primera_app/Screens/account.dart';
 import 'package:primera_app/Screens/settings.dart';
 
@@ -37,6 +38,7 @@ class HomeScreenState extends State<HomeScreen> {
       getNavItem(Icons.settings, "Settings", SettingsScreen.routeName),
       getNavItem(Icons.home, "Home", "/"),
       getNavItem(Icons.account_box, "Account", AccountScreen.routeName),
+      getNavItem(Icons.contact_phone, "Contact", ContactPage.routeName),
       aboutChild
     ];
 
